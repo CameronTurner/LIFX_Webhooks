@@ -1,5 +1,5 @@
 {
- "eventName": "LIFX_TURN_ON_FDOOR_LIGHT_BLUE",
+ "eventName": "LIFX_TURN_OFF_FDOOR_LIGHT_BLUE",
  "url": "https://api.lifx.com/v1/lights/label:Front Door/state",
  "requestType": "PUT",
  "headers": {
