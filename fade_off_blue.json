@@ -1,0 +1,17 @@
+{
+ "eventName": "LIFX_TURN_ON_FDOOR_LIGHT_BLUE",
+ "url": "https://api.lifx.com/v1/lights/label:Front Door/state",
+ "requestType": "PUT",
+ "headers": {
+ "Authorization": "Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+ "Content-Type": "application/json"
+  },
+    "json": {
+		"power": "off",
+		"color": "blue saturation:0.5",
+		"brightness": 0.5,
+		"duration": 5
+    
+},
+    "mydevices": true
+}
